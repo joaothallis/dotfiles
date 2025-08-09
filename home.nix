@@ -17,4 +17,11 @@ programs = {
       };
     };
     };
+    # In home manager config...
+    programs.direnv = {
+      enable = true;
+      nix-direnv = {
+        enable = true;
+      };
+    };
 }

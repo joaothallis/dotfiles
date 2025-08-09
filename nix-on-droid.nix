@@ -4,6 +4,7 @@
   # Simply install just the packages
   environment.packages = with pkgs; [
     # User-facing stuff that you really really want to have
+    tmux
     vim # or some other editor, e.g. nano or neovim
     gh
 
