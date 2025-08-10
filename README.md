@@ -10,6 +10,14 @@ To build and activate the configuration, run the following command from this dir
 nix-on-droid switch --flake .#default
 ```
 
+## Apply without cloning
+
+To apply this configuration without cloning the repository, run the following command:
+
+```bash
+nix-on-droid switch --flake github:joaothallis/dotfiles
+```
+
 ## Configuration
 
 This configuration is based on the `nixos-24.05` and `home-manager/release-24.05` channels.
