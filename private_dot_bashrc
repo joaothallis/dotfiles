@@ -1,1 +1,8 @@
 export CLAUDE_CODE_EFFORT_LEVEL=max
+
+alias gs='git status'
+alias gl='git pull'
+alias gp='git push'
+alias gd='git diff'
+alias gc='git commit -p'
+alias gca='git commit -p --amend'
