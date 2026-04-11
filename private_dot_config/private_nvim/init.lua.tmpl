@@ -4,9 +4,6 @@ vim.opt.clipboard = 'unnamedplus'
 vim.g.copilot_node_command = '/data/data/com.termux/files/usr/bin/node'
 vim.g.copilot_command = '/data/data/com.termux/files/usr/lib/node_modules/@github/copilot-language-server/dist/language-server.js'
 
-{{ else -}}
-vim.g.copilot_node_command = 'node'
-vim.g.copilot_command = 'copilot-language-server'
 {{ end -}}
 
 vim.pack.add({
